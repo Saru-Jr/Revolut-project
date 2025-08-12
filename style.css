@@ -214,6 +214,14 @@ header {
         font-weight: 800;
     }
 
+    h2 {
+        margin-top: 200px;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
     p {
         font-size: 1.2rem;
         text-align: center;
@@ -265,4 +273,20 @@ header {
             }
         }
     }
+
+    .join {
+        display: flex;
+        margin-top: 50px;
+        .join-card {
+            border-left: 2px solid black;
+            padding: 10px;
+            p {
+                margin: 0;
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+    }
 }
+
+
