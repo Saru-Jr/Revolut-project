@@ -1,7 +1,7 @@
  // Données des cartes, avec une image par carte (URL)
   const cards = [
-    { id: 1, name: "physical", img: "../img/physical.png", title: "Elevate your spend", description: "Earn points on your purchases with one of our debit cards. Then redeem them for Airline Miles and more. RevPoints T&Cs apply."},
-    { id: 2, name: "virtual", img: "../img/virtual.png", title: "Go virtual", description: "Create and add virtual cards to Apple or Google Wallet to start paying right away."},
+    { id: 1,type:"physical", name: "physical", img: "../img/physical.png", title: "Elevate your spend", description: "Earn points on your purchases with one of our debit cards. Then redeem them for Airline Miles and more. RevPoints T&Cs apply."},
+    { id: 2,type:"virtual", name: "virtual", img: "../img/virtual.png", title: "Go virtual", description: "Create and add virtual cards to Apple or Google Wallet to start paying right away."},
   ];
 
   const cardsContainer = document.getElementById("cardsContainer");
